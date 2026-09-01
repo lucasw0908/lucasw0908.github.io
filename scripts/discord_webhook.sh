@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-files=$(git diff --name-only HEAD^ HEAD | grep -E 'p/**/.*\.html$' | sed 's|/index\.html$||')
+files=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -E 'p/**/.*\.html$' | sed 's|/index\.html$||')
 
 if [ -z "$files" ]; then
     echo "No changes found"
