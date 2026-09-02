@@ -14,7 +14,7 @@ jobs:
           THREAD_ID: ${{ secrets.THREAD_ID }}
           URL: ${{ secrets.URL }}
         run: |
-          files=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -E 'p/**/.*\.html$' | sed 's|/index\.html$||')
+          files=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep -E 'p/**/.*\.html$' | sed 's|/index\.html$||')
 
           if [ -z "$files" ]; then
               echo "No changes found"

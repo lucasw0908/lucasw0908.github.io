@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>第一篇文章 on Lucas&#39;s Blog</title>
-        <link>http://localhost:1313/tags/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+        <link>https://lucasw0908.github.io/tags/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
         <description>Recent content in 第一篇文章 on Lucas&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-hant-tw</language>
-        <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lucasw0908.github.io/tags/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Hello World</title>
-            <link>http://localhost:1313/p/hello_world/</link>
+            <link>https://lucasw0908.github.io/p/hello_world/</link>
             <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/p/hello_world/</guid>
-            <description>&lt;h3 id=&#34;這邊是我的個人部落格&#34;&gt;&lt;a href=&#34;#%e9%80%99%e9%82%8a%e6%98%af%e6%88%91%e7%9a%84%e5%80%8b%e4%ba%ba%e9%83%a8%e8%90%bd%e6%a0%bc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;這邊是我的個人部落格&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;很久之前就想做的個人網站一直爛尾，雖然這個跟個人網站的性質有點不太一樣，之後或許會有其他的網站登場，不過還是先來發第一篇紀念文。&lt;/p&gt;&#xA;&lt;p&gt;如果你不認識我的話&lt;del&gt;會點進來的會有陌生人嗎&lt;/del&gt;，可以到 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/about&#34; &gt;關於&lt;/a&gt; 看看。&lt;/p&gt;&#xA;&lt;p&gt;這邊預計會放一些我在做的事情，像是最近在接觸什麼技能，或是遇到什麼問題的解決方案之類的，也有可能會有單純的廢文，總之我想到什麼放什麼。&lt;/p&gt;&#xA;&lt;p&gt;另外這邊之後應該也不會更新的太頻繁，如果有什麼覺得可以加入的功能都可以告訴我，&lt;/p&gt;&#xA;</description>
+            <guid>https://lucasw0908.github.io/p/hello_world/</guid>
+            <description>&lt;h3 id=&#34;這邊是我的個人部落格&#34;&gt;&lt;a href=&#34;#%e9%80%99%e9%82%8a%e6%98%af%e6%88%91%e7%9a%84%e5%80%8b%e4%ba%ba%e9%83%a8%e8%90%bd%e6%a0%bc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;這邊是我的個人部落格&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;很久之前就想做的個人網站一直爛尾，雖然這個跟個人網站的性質有點不太一樣，之後或許會有其他的網站登場，不過還是先來發第一篇紀念文。&lt;/p&gt;&#xA;&lt;p&gt;如果你不認識我的話&lt;del&gt;會點進來的會有陌生人嗎&lt;/del&gt;，可以到 &lt;a class=&#34;link&#34; href=&#34;https://lucasw0908.github.io/about&#34; &gt;關於&lt;/a&gt; 看看。&lt;/p&gt;&#xA;&lt;p&gt;這邊預計會放一些我在做的事情，像是最近在接觸什麼技能，或是遇到什麼問題的解決方案之類的，也有可能會有單純的廢文，總之我想到什麼放什麼。&lt;/p&gt;&#xA;&lt;p&gt;另外這邊之後應該也不會更新的太頻繁，如果有什麼覺得可以加入的功能都可以告訴我，&lt;/p&gt;&#xA;</description>
         </item></channel>
 </rss>
