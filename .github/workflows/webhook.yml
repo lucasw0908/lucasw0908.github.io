@@ -1,4 +1,5 @@
 name: Discord Webhook
+
 on:
   push:
     branches: [main]
@@ -6,35 +7,45 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
       - name: Run discord webhook
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           THREAD_ID: ${{ secrets.THREAD_ID }}
           URL: ${{ secrets.URL }}
         run: |
-          files=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep -E 'p/**/.*\.html$' | sed 's|/index\.html$||')
+          files=$(git diff --name-only --diff-filter=A \
+            "${{ github.event.before }}" \
+            "${{ github.sha }}" |
+            grep -E '^p/.+\.html$' |
+            sed 's|/index\.html$||' || true)
 
           if [ -z "$files" ]; then
-              echo "No changes found"
-              exit 0
+            echo "No changes found"
+            exit 0
           fi
 
           while IFS= read -r file; do
-              curl -X POST \
+            echo "New post: $file"
+
+            curl -X POST \
               "$DISCORD_WEBHOOK?thread_id=$THREAD_ID" \
               -H "Content-Type: application/json" \
-              -d '{
-                  "content": "",
-                  "username": "New Post Bot",
-                  "embeds": [
-                      {
-                      "title": "New Post",
-                      "color": 0x00ff00,
-                      "description": "A new post has been published!",
-                      "url": "$URL/$file"
-                      }
-                  ]
-              }'
+              -d "{
+                \"content\": \"\",
+                \"username\": \"New Post Bot\",
+                \"embeds\": [
+                  {
+                    \"title\": \"New Post\",
+                    \"color\": 65280,
+                    \"description\": \"A new post has been published!\",
+                    \"url\": \"$URL/$file\"
+                  }
+                ]
+              }"
           done <<< "$files"
