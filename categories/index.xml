@@ -12,6 +12,12 @@
             <guid>http://localhost:1313/categories/info/</guid>
             <description></description>
         </item><item>
+            <title>ACG 相關</title>
+            <link>http://localhost:1313/categories/acg/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/categories/acg/</guid>
+            <description></description>
+        </item><item>
             <title>日常</title>
             <link>http://localhost:1313/categories/daily/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -35,5 +41,11 @@
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/categories/programming/</guid>
             <description>&lt;img src=&#34;http://localhost:1313/categories/programming/code_block.jpg&#34; alt=&#34;Featured image of post 程式相關&#34; /&gt;</description>
+        </item><item>
+            <title>學習相關</title>
+            <link>http://localhost:1313/categories/studying/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/categories/studying/</guid>
+            <description></description>
         </item></channel>
 </rss>
