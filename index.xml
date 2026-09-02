@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Lucas&#39;s Blog</title>
-        <link>https://lucasw0908.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Lucas&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-hant-tw</language>
-        <lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lucasw0908.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>網站資訊</title>
-            <link>https://lucasw0908.github.io/p/website_info/</link>
+            <link>http://localhost:1313/p/website_info/</link>
             <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-            <guid>https://lucasw0908.github.io/p/website_info/</guid>
+            <guid>http://localhost:1313/p/website_info/</guid>
             <description>&lt;p&gt;這個網站是直接用 Hugo 的 Stack Theme 當模板架好的，如同你在網站尾部看到的(想了想其實也沒必要隱藏)，當然有想過自己做一個，但是我現在想到需要的功能也沒有那種需要這麼客製化的。&lt;/p&gt;&#xA;&lt;p&gt;當然有些自己小修的部分，像是下方的文章數量、翻譯跟 UI 小改，基本上都不值一提。比較有趣的是弄了一個能夠在有新文章時發到 Discord 的 Webhook，但是這東西在這邊也看不到。&lt;/p&gt;&#xA;&lt;p&gt;留言區的部分原本是用 Disqus，但是那介面真的太醜，所以改成了 Twikoo (截止撰文時還沒測試過，所以也不確定會不會成功)。&lt;/p&gt;&#xA;&lt;p&gt;之後考慮新增的功能或許也就更好的 Webhook 支援，其他太雜的功能反而不應該出現在簡易的部落格中。&lt;/p&gt;&#xA;</description>
         </item><item>
             <title>Hello World</title>
-            <link>https://lucasw0908.github.io/p/hello_world/</link>
+            <link>http://localhost:1313/p/hello_world/</link>
             <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-            <guid>https://lucasw0908.github.io/p/hello_world/</guid>
-            <description>&lt;h3 id=&#34;這邊是我的個人部落格&#34;&gt;&lt;a href=&#34;#%e9%80%99%e9%82%8a%e6%98%af%e6%88%91%e7%9a%84%e5%80%8b%e4%ba%ba%e9%83%a8%e8%90%bd%e6%a0%bc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;這邊是我的個人部落格&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;很久之前就想做的個人網站一直爛尾，雖然這個跟個人網站的性質有點不太一樣，之後或許會有其他的網站登場，不過還是先來發第一篇紀念文。&lt;/p&gt;&#xA;&lt;p&gt;如果你不認識我的話&lt;del&gt;會點進來的會有陌生人嗎&lt;/del&gt;，可以到 &lt;a class=&#34;link&#34; href=&#34;https://lucasw0908.github.io/about&#34; &gt;關於&lt;/a&gt; 看看。&lt;/p&gt;&#xA;&lt;p&gt;這邊預計會放一些我在做的事情，像是最近在接觸什麼技能，或是遇到什麼問題的解決方案之類的，也有可能會有單純的廢文，總之我想到什麼放什麼。&lt;/p&gt;&#xA;&lt;p&gt;另外這邊之後應該也不會更新的太頻繁，如果有什麼覺得可以加入的功能都可以告訴我，&lt;/p&gt;&#xA;</description>
+            <guid>http://localhost:1313/p/hello_world/</guid>
+            <description>&lt;h3 id=&#34;這邊是我的個人部落格&#34;&gt;&lt;a href=&#34;#%e9%80%99%e9%82%8a%e6%98%af%e6%88%91%e7%9a%84%e5%80%8b%e4%ba%ba%e9%83%a8%e8%90%bd%e6%a0%bc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;這邊是我的個人部落格&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;很久之前就想做的個人網站一直爛尾，雖然這個跟個人網站的性質有點不太一樣，之後或許會有其他的網站登場，不過還是先來發第一篇紀念文。&lt;/p&gt;&#xA;&lt;p&gt;如果你不認識我的話&lt;del&gt;會點進來的會有陌生人嗎&lt;/del&gt;，可以到 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/about&#34; &gt;關於&lt;/a&gt; 看看。&lt;/p&gt;&#xA;&lt;p&gt;這邊預計會放一些我在做的事情，像是最近在接觸什麼技能，或是遇到什麼問題的解決方案之類的，也有可能會有單純的廢文，總之我想到什麼放什麼。&lt;/p&gt;&#xA;&lt;p&gt;另外這邊之後應該也不會更新的太頻繁，如果有什麼覺得可以加入的功能都可以告訴我，&lt;/p&gt;&#xA;</description>
         </item></channel>
 </rss>
