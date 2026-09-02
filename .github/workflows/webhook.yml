@@ -2,14 +2,13 @@ name: Discord Webhook
 on:
   push:
     branches: [main]
-    paths:
-      - "public/p/**"
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Run Discord Webhook
+      - name: Run discord webhook
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           THREAD_ID: ${{ secrets.THREAD_ID }}
